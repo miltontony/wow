@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Gitflow and workflow"
 date:   2015-06-08 20:59:45
 categories: 

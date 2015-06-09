@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Communicating"
 date:   2015-06-08 16:25:55
 categories: 

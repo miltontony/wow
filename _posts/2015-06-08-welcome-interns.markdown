@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Welcome to Praekelt!"
 date:   2015-06-08 14:43:13
 categories: welcome

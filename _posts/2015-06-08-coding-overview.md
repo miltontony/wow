@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "A Coding Overview"
 date:   2015-06-08 17:34:48
 categories: 

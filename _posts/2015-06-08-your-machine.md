@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Your Machine"
 date:   2015-06-08 17:18:02
 categories: 
