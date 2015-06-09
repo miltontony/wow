@@ -3,7 +3,7 @@ author: "Nathan Begbie"
 description: "A site to give Praekelt Foundation interns a helpful start"
 #subheading: "Really cool blog about ... something"
 more: "read more"
-url: "http://github.com/nathanbegbie"
+url: "http://nathanbegbie.io/wow"
 baseurl: "/wow" # comment out if in root directory
 
 style:
