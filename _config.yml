@@ -6,10 +6,6 @@ more: "read more"
 url: "http://github.com/nathanbegbie"
 baseurl: "/wow" # comment out if in root directory
 
-comments:
-    disqus: "niklasbuschmann"
-#    isso: "comments.mysite.org"
-
 style:
 #    body: "whitesmoke"
     padding: 33%
