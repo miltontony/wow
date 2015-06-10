@@ -4,11 +4,11 @@ date:   2015-06-08 20:59:45
 categories: 
 ---
 
-So how do we use git, Github and Gitflow to create our work flow?
+So how do we use git, Github and Gitflow to create our work flow and make good quality software?
 
 ###A Broad Overview
 
-We need to think about branches. There are 3 types of branches; Master, Develop and Feature branches. This structure is not enforced by git or Github, but its the approach taken by Gitflow.
+In the development process, we need to think about branches of code and how they interact over time. In our process, there are 3 types of branches; Master, Develop and Feature branches. This structure is not enforced by git or Github, but it's the approach taken by Gitflow.
 
 So, our branches. Our 'busiest' branch is the develop branch. This is where the software product as a whole is developed, where things are tried out and the branch that all the devs are developing. When we're finished with what we've been working on, we can then create a 'release' using Gitflow. This is done by taking everything we've done in develop and merging it in to the master branch, so that the master branch is always pointing at the latest 'tagged release'. The master branch is the final product, it's the software that the customer or user is allowed to use. In our case, it's the software that is uploaded to the servers. Each merge in to the master branch has a release number (e.g. v0.0.2 or v1.0)
 

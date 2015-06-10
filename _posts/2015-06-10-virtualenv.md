@@ -10,19 +10,21 @@ Basically, virtualenv allows you to have different versions of software and pack
 
 {% highlight bash %}
 
-virtualenv ve
+$ virtualenv ve
 
 {% endhighlight %}
 The `ve` is the name we've given our virtualenv. This could be anything, but our convention is to use `ve` and naming it something else will cause issues with the universalcore repos. The examples below assume that this is what you have named it. After this command, you'll get something like this
 
 {% highlight bash %}
 
-ew python executable in ve/bin/python
+$ virtualenv ve
+new python executable in ve/bin/python
 Installing setuptools, pip...done.
+$ 
 
 {% endhighlight %}
 
-If you run `ls`, you'll see that there is now a directory called `ve`. (A tip, add `ve` on a newline to your `.gitignore` file if it's not there already. This will avoid potential problems and git tomfoolery) This folder is where the settings are kept for this particular virtualenv, but note that it's not currently activated. To do that  we need to enter this:
+If you run `ls`, you'll see that there is now a directory called `ve`. (A tip, add `ve` to your `.gitignore` file if it's not there already. This will avoid potential problems and git tomfoolery) This folder is where the settings are kept for this particular virtualenv, but it's not currently "activated" or "on". To do that we need to enter this:
 {% highlight bash %}
 
 $ source ve/bin/activate
@@ -30,7 +32,7 @@ $ source ve/bin/activate
 
 {% endhighlight %}
 
-See that `(ve)` before your command line? That indicates that the virtualenv called ve is active. So now we can install django. If we don't specify a version, it will install the latest stable version of django. We'll install v1.5.2 here for funsies.
+See that `(ve)` before your command prompt? That indicates that the virtualenv called ve is active. So now we can install django. If we don't specify a version, it will install the latest stable version of django. We'll install v1.5.2 here for funsies.
 
 {% highlight bash %}
 
@@ -85,7 +87,7 @@ ImportError: No module named django
 
 {% endhighlight %}
 
-It's not there because we isolated it within our virtualenv.
+We get an import error because it's not there because we isolated it within our virtualenv.
 
 We create a virtualenv per repo that we work with. So let's say that we were working in a repo or directory `~/test`. Let's create a second directory and install the latest version of Django. To help make a point, I'm going to name this virtualenv `ve2`. Remember that by convention we call it `ve`.
 
@@ -133,10 +135,12 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 {% endhighlight %}
 
-See that we're still working with the latest version of Django (v1.8.2 not v1.5.2)? That's because a virtualenv will work across directories. This may seem obvious, but remember that all our virtualenvs are called `ve`, so our helpful litte tag `(ve)$` is not going to help us remember to switch virtualenvs. So always remember that if you're switching the repos that you're working in, deactivate your current virtualenv, navigate to the directory that you want to work with and then run the activate command again. The deactivate command can be run no matter what directory you're in, but you must be in the directory with the virtualenv folder in order to activate it.
+See that we're still working with the latest version of Django (that's v1.8.2 not v1.5.2)? That's because a virtualenv will work across directories. This may seem obvious beacuse `ve2` is still there, but remember that *all* our virtualenvs are called `ve`, so our helpful litte tag `(ve)$` is not going to help us remember to switch virtualenvs in our day to day work. So always remember that if you're switching the repos that you're working in, deactivate your current virtualenv, navigate to the directory that you want to work with (and that contains the appropriate ve directory) and then run the activate command again. The deactivate command can be run no matter what directory you're in, but you must be in the directory with the virtualenv folder in order to activate it.
 
 {% highlight bash %}
 
+(ve2)$ pwd
+~/test
 (ve2)$ deactivate
 $ source ve/bin/activate
 (ve)$ python
@@ -154,7 +158,7 @@ Here's a virtual representation of how this all works.
 
 ![alt text](/wow/resources/fig41.jpg "Title")
 
-Often when I've run into problems with running sites locally on my machine, it's because my installed packages are up to date. If you're unsure of the issue, do this:
+Often when I've run into problems with running sites locally on my machine, it's because my installed packages are not up to date. If you're unsure of the issue, do this:
 
 {% highlight bash %}
 
