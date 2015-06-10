@@ -149,3 +149,18 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 
 {% endhighlight %}
+
+Here's a virtual representation of how this all works.
+
+![alt text](/wow/resources/fig41.jpg "Title")
+
+Often when I've run into problems with running sites locally on my machine, it's because my installed packages are up to date. If you're unsure of the issue, do this:
+
+{% highlight bash %}
+
+pip install -r requirements.txt
+pip install -r requirements-dev.txt
+
+{% endhighlight %}
+
+This will check what versions are installed and if any need updating, will update for you.
