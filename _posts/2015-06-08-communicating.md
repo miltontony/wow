@@ -20,3 +20,11 @@ The easiest way to share documents is to drop and drag it into Slack, or share a
 
 ##Sharing Code
 Any and all code MUST be shared using git and GitHub, but this a fairly big topic that we'll deal with in another article.
+
+##In Summary
+Make sure that you have the following:
+* A Google account
+* Skype and Google Hangout Plugins installed
+* A Github Account
+
+[Next Article: Your Machine](http://127.0.0.1:4000/wow/2015/06/08/your-machine.html)

@@ -6,7 +6,7 @@ categories:
 
 The purpose of a virtualenv and how it worked confused me at first, so I'm going to take a bit of time to explain what it is, what it does and how it works with [pip](https://pip.pypa.io/en/stable/).
 
-Basically, virtualenv allows you to have different versions of software and packages on your machine at the same time. Think about python for example. There are significant changes between Python v2.7.x and v3.x . If you have one version installed on your computer and you want to work in a different version, instead of messing about with root folders and installs, you can use virtualenv to create an isolated environment in which you can use that version. So say for example, we want a local version of Django (a web framework written in python), but we don't want a global version installed. (Assume django is not installed on this machine) First we navigate to the directory we want to work in, and create our virtualenv using the following command:
+Basically, virtualenv allows you to have different versions of software and packages on your machine at the same time. Instead of messing about with root folders and installs, you can use virtualenv to create an isolated environment in which you can use that version. So say for example, we want a local version of Django (a web framework written in python), but we don't want a global version installed. (Assume Django is not installed on this machine) First we navigate to the directory we want to work in, and create our virtualenv using the following command:
 
 {% highlight bash %}
 
@@ -158,9 +158,11 @@ Often when I've run into problems with running sites locally on my machine, it's
 
 {% highlight bash %}
 
-pip install -r requirements.txt
-pip install -r requirements-dev.txt
+(ve)$ pip install -r requirements.txt
+(ve)$ pip install -r requirements-dev.txt
 
 {% endhighlight %}
 
 This will check what versions are installed and if any need updating, will update for you.
+
+[Next Article: Gitflow and Workflow](http://nathanbegbie.github.io/wow/2015/06/08/gitflow-and-workflow.html)

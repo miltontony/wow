@@ -67,7 +67,6 @@ $ git checkout master
 
 This will automatically create a local master branch and switch you to the master branch, switch back to the develop branch and use Gitflow to work its magic
 
-
 {% highlight bash %}
 $ git checkout develop
 $ git flow init
@@ -92,17 +91,18 @@ Next, you need to create and start up your virtualenv, which is explained at [th
 
 {% highlight bash %}
 
-$virtualenv ve
-$source ve/bin/activate
+$ virtualenv ve
+$ source ve/bin/activate
+(ve)$
 
 {% endhighlight %}
 
-Then you'll need to install the packages that will allow the code to run locally on your machine. The packages are listed in a file called requirements.txt in most cases and there may also be requirements-dev.txt. Luckily, we use [pip](http://en.wikipedia.org/wiki/Pip_%28package_manager%29) to take care of all of that for us. Make sure your virtualenv is activated for the appropriate repo and then simply run the following commands:
+The `(ve)` that appears in the command line, is telling you that the virtualenv is activated. Then you'll need to install the packages that will allow the code to run locally on your machine. The packages are listed in a file called requirements.txt in most cases and there may also be requirements-dev.txt. Luckily, we use [pip](http://en.wikipedia.org/wiki/Pip_%28package_manager%29) to take care of all of that for us. Make sure your virtualenv is activated for the appropriate repo and then simply run the following commands:
 
 {% highlight bash %}
 
-$ pip install requirements.txt
-$ pip install requirements-dev.txt
+(ve)$ pip install requirements.txt
+(ve)$ pip install requirements-dev.txt
 
 {% endhighlight %}
 
@@ -116,7 +116,7 @@ $ sh bootstrap.sh
 
 Great! So your local machine *should* be set up, but there are invariably problems the first couple of times. Ask a real live human to help you out :)
 
-OK, so back to github and gitflow.
+OK, so back to Github and Gitflow.
 
 You're going to want to create a branch to work on your feature. First, create an issue on GitHub, at the appropriate repo. [This article](https://help.github.com/articles/creating-an-issue/) explains how to do that. Once the issue has been created, GitHub automatically creates an issue number. It's important because we use it to name our branches in a logical fashion. 
 
@@ -280,3 +280,5 @@ Things to note:
 - Things like quality assurance from project managers and the broader software creation process is not covered here. 
 - I [have not yet created an article that summarizes the above commands](brokenlink).
 - Here's [an article that just about gitflow](http://danielkummer.github.io/git-flow-cheatsheet/) that explains it in a more general sense.
+
+[Next Article: Github Elasticsearch And The Universalcore Stack](http://nathanbegbie.github.io/wow/2015/06/10/Github-ElasticSearch-and-the-Universalcore-Stack.html)
