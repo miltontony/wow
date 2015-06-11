@@ -208,7 +208,7 @@ then check the issue number again (this is why it's important!) and then enter t
 
 {% highlight bash %}
 
-hub pull-request -b develop -i <ISSUE NUMBER>
+$ hub pull-request -b develop -i <ISSUE NUMBER>
 
 {% endhighlight %}
 
@@ -216,7 +216,7 @@ In our example, it would be
 
 {% highlight bash %}
 
-hub pull-request -b develop -i 21
+$ hub pull-request -b develop -i 21
 
 {% endhighlight %}
 
@@ -235,10 +235,10 @@ Just before you start celebrating however, you need to make sure that there have
 
 {% highlight bash %}
 
-git checkout develop
-git pull
-git checkout feature/<BRANCH NAME>
-git pull origin develop
+$ git checkout develop
+$ git pull
+$ git checkout feature/<BRANCH NAME>
+$ git pull origin develop
 
 {% endhighlight %}
 
@@ -248,7 +248,7 @@ Now, and only now, can you merge your feature into the develop branch using
 
 {% highlight bash %}
 
-git flow feature finish <BRANCH NAME>
+$ git flow feature finish <BRANCH NAME>
 
 {% endhighlight %}
 
@@ -256,7 +256,7 @@ In our example:
 
 {% highlight bash %}
 
-git flow feature finish issue-21-add-search
+$ git flow feature finish issue-21-add-search
 
 {% endhighlight %}
 
@@ -266,7 +266,7 @@ Note that the change is only made locally, SO MAKE SURE YOU PUSH! I have forgott
 
 {% highlight bash %}
 
-git push
+$ git push
 
 {% endhighlight %}
 
