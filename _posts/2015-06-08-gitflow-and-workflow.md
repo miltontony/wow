@@ -95,7 +95,7 @@ Simply accept the defaults and stuff has happened!
 
 ![alt text](/wow/resources/fig8.jpg "Title")
 
-Next, you need to create and start up your virtualenv, which is explained at [this link to an article that I still have to write](something).
+Next, you need to create and start up your virtualenv, which is explained at [in a later article](/wow/2015/06/10/virtualenv.html).
 
 {% highlight bash %}
 
