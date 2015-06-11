@@ -6,14 +6,14 @@ categories:
 
 The purpose of a virtualenv and how it worked confused me at first, so I'm going to take a bit of time to explain what it is, what it does and how it works with [pip](https://pip.pypa.io/en/stable/).
 
-Basically, virtualenv allows you to have different versions of software and packages on your machine at the same time. Instead of messing about with root folders and installs, you can use virtualenv to create an isolated environment in which you can use that version. So say for example, we want a local version of Django (a web framework written in python), but we don't want a global version installed. (Assume Django is not installed on this machine) First we navigate to the directory we want to work in, and create our virtualenv using the following command:
+Basically, virtualenv allows you to have different versions of software and packages on your machine at the same time. Instead of messing about with root folders and installs, you can use virtualenv to create an isolated environment in which you can use that version. So say for example, we want a local version of Django (a web framework written in python), but we don't want a global version installed. (Assume Django is not installed on this machine) First we navigate to the directory we want  to work in (in this case `test`), and create our virtualenv:
 
 {% highlight bash %}
-
+$ cd ~/test
 $ virtualenv ve
 
 {% endhighlight %}
-The `ve` is the name we've given our virtualenv. This could be anything, but our convention is to use `ve` and naming it something else will cause issues with the universalcore repos. The examples below assume that this is what you have named it. After this command, you'll get something like this
+The `ve` is the name we've given our virtualenv. This could be anything, but our convention is to use `ve` and naming it something else will cause issues with the Universalcore repos and probably most others as well. The examples below assume that this is what you have named it. After this command, you'll get something like this
 
 {% highlight bash %}
 
@@ -24,7 +24,7 @@ $
 
 {% endhighlight %}
 
-If you run `ls`, you'll see that there is now a directory called `ve`. (A tip, add `ve` to your `.gitignore` file if it's not there already. This will avoid potential problems and git tomfoolery) This folder is where the settings are kept for this particular virtualenv, but it's not currently "activated" or "on". To do that we need to enter this:
+If you run `ls`, you'll see that there is now a directory called `ve`. Add `ve` to your `.gitignore` file if it's not there already. This will avoid potential problems and git tomfoolery, like uploading all the install files to github. Ouch. The `ve` folder is where the settings are kept for this particular virtualenv, but it's not currently "activated" or "on". To do that we need to enter this:
 {% highlight bash %}
 
 $ source ve/bin/activate
@@ -32,7 +32,7 @@ $ source ve/bin/activate
 
 {% endhighlight %}
 
-See that `(ve)` before your command prompt? That indicates that the virtualenv called ve is active. So now we can install django. If we don't specify a version, it will install the latest stable version of django. We'll install v1.5.2 here for funsies.
+See that `(ve)` before your command prompt? That indicates that the virtualenv called `ve` is active. So now we can install django. If we don't specify a version, it will install the latest stable version of django. We'll install v1.5.2 here for funsies.
 
 {% highlight bash %}
 
@@ -87,9 +87,9 @@ ImportError: No module named django
 
 {% endhighlight %}
 
-We get an import error because it's not there because we isolated it within our virtualenv.
+We get an import error because it's not there; we isolated it within our virtualenv.
 
-We create a virtualenv per repo that we work with. So let's say that we were working in a repo or directory `~/test`. Let's create a second directory and install the latest version of Django. To help make a point, I'm going to name this virtualenv `ve2`. Remember that by convention we call it `ve`.
+We create a virtualenv per repo that we work with. So we've been working in a repo or directory `~/test`. Let's create a second directory and install the latest version of Django. To help make a point, I'm going to name this virtualenv `ve2`. Remember that by convention we call it `ve`.
 
 {% highlight bash %}
 
@@ -135,7 +135,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 {% endhighlight %}
 
-See that we're still working with the latest version of Django (that's v1.8.2 not v1.5.2)? That's because a virtualenv will work across directories. This may seem obvious beacuse `ve2` is still there, but remember that *all* our virtualenvs are called `ve`, so our helpful litte tag `(ve)$` is not going to help us remember to switch virtualenvs in our day to day work. So always remember that if you're switching the repos that you're working in, deactivate your current virtualenv, navigate to the directory that you want to work with (and that contains the appropriate ve directory) and then run the activate command again. The deactivate command can be run no matter what directory you're in, but you must be in the directory with the virtualenv folder in order to activate it.
+See that we're still working with the latest version of Django (that's v1.8.2 not v1.5.2)? That's because a virtualenv will work across directories. This may seem obvious beacuse `ve2` is still there, but remember that *all* our virtualenvs are called `ve`, so our helpful litte tag `(ve)$` is not going to help us remember to switch virtualenvs in our day to day work. So always remember that if you're switching the repos that you're working in, deactivate your current virtualenv, navigate to the directory that you want to work with (and that contains the appropriate ve directory) and then run the activate command again. The deactivate command can be run no matter what directory you're in, but you must be in the directory with the virtualenv folder, in order to activate it.
 
 {% highlight bash %}
 
@@ -158,7 +158,7 @@ Here's a virtual representation of how this all works.
 
 ![alt text](/wow/resources/fig41.jpg "Title")
 
-Often when I've run into problems with running sites locally on my machine, it's because my installed packages are not up to date. If you're unsure of the issue, do this:
+Often when I've run into problems with running sites locally on my machine, it's because my installed packages are not up to date. This usually helps:
 
 {% highlight bash %}
 
