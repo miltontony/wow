@@ -109,8 +109,8 @@ The `(ve)` that appears in the command line, is telling you that the virtualenv 
 
 {% highlight bash %}
 
-(ve)$ pip install requirements.txt
-(ve)$ pip install requirements-dev.txt
+(ve)$ pip install -r requirements.txt
+(ve)$ pip install -r requirements-dev.txt
 
 {% endhighlight %}
 
