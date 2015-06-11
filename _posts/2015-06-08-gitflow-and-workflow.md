@@ -281,4 +281,4 @@ Things to note:
 - I have created [an article that summarizes the above commands](http://nathanbegbie.github.io/wow/2015/06/11/workflow-cheatsheet.html).
 - Here's [an article that just about gitflow](http://danielkummer.github.io/git-flow-cheatsheet/) that explains it in a more general sense.
 
-[Next Article: Further Reading]()
+[Next Article: Further Reading](http://nathanbegbie.github.io/wow/2015/06/11/further-reading.html)
