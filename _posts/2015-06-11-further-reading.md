@@ -8,7 +8,7 @@ That's it for now! If you have more questions or suggestions, [contact me](https
 
 Otherwise, here's some more stuff you can check out, in no particular order:
 
--[We have a blog](http://blog.praekeltfoundation.org/)
+- [We have a blog](http://blog.praekeltfoundation.org/)
 
 - [The legit ways of working doc](http://ways-of-working.readthedocs.org/en/latest/)
 
