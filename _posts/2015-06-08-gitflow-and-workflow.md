@@ -278,7 +278,7 @@ There are some things that were not covered in depth here like testing and some 
 Things to note:
 
 - Things like quality assurance from project managers and the broader software creation process is not covered here. 
-- I [have not yet created an article that summarizes the above commands](brokenlink).
+- I have created [an article that summarizes the above commands](http://nathanbegbie.github.io/wow/2015/06/11/workflow-cheatsheet.html).
 - Here's [an article that just about gitflow](http://danielkummer.github.io/git-flow-cheatsheet/) that explains it in a more general sense.
 
 [Next Article: Github Elasticsearch And The Universalcore Stack](http://nathanbegbie.github.io/wow/2015/06/10/Github-ElasticSearch-and-the-Universalcore-Stack.html)
