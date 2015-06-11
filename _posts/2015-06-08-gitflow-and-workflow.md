@@ -48,6 +48,14 @@ The first thing we need is a repository to work on. This will already be created
 
 {% highlight bash %}
 
+$ git clone <REPO SSH URL>
+
+{% endhighlight %}
+
+So for example
+
+{% highlight bash %}
+
 $ git clone git@github.com:universalcore/springboard.git
 
 {% endhighlight %}
