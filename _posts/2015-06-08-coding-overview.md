@@ -31,4 +31,4 @@ There are a couple of concepts/ideas/technologies/stuff that you should get comf
 * We test our code. A lot.
 * We don't expect you to know all of this stuff from the beginning
 
-[Next Article: Git and the Basics](http://nathanbegbie.github.io/wow/2015/06/08/git.html)
+[Next Article: Git and the Basics](/wow/2015/06/08/git.html)

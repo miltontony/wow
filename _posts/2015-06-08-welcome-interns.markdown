@@ -18,4 +18,4 @@ We do already have documentation [here](http://ways-of-working.readthedocs.org/e
 [contact]: https://github.com/nathanbegbie
 [issue]: https://github.com/nathanbegbie/wow/issues
 
-[Next Article: Communicating ](http://nathanbegbie.github.io/wow/2015/06/08/communicating.html)
+[Next Article: Communicating ](/wow/2015/06/08/communicating.html)

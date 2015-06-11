@@ -17,4 +17,4 @@ Make sure
 * you have a laptop you can bring to work
 * that laptop is running Ubuntu or OSX
 
-[Next Article: Tools that we use](http://nathanbegbie.github.io/wow/2015/06/09/tools.html)
+[Next Article: Tools that we use](/wow/2015/06/09/tools.html)

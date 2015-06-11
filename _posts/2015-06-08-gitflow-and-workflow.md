@@ -278,7 +278,7 @@ There are some things that were not covered in depth here like testing and some 
 Things to note:
 
 - Things like quality assurance from project managers and the broader software creation process is not covered here. 
-- I have created [an article that summarizes the above commands](http://nathanbegbie.github.io/wow/2015/06/11/workflow-cheatsheet.html).
+- I have created [an article that summarizes the above commands](/wow/2015/06/11/workflow-cheatsheet.html).
 - Here's [an article that just about gitflow](http://danielkummer.github.io/git-flow-cheatsheet/) that explains it in a more general sense.
 
-[Next Article: Further Reading](http://nathanbegbie.github.io/wow/2015/06/11/further-reading.html)
+[Next Article: Further Reading](/wow/2015/06/11/further-reading.html)

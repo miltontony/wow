@@ -28,4 +28,4 @@ Make sure that you have the following:
 - Skype and Google Hangout Plugins installed
 - A Github Account
 
-[Next Article: Your Machine](http://nathanbegbie.github.io/wow/2015/06/08/your-machine.html)
+[Next Article: Your Machine](/wow/2015/06/08/your-machine.html)

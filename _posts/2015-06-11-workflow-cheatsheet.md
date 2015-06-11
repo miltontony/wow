@@ -161,4 +161,4 @@ rm -rf <REPO NAME>
 
 {% endhighlight %}
 
-[Then start again](http://nathanbegbie.github.io/wow/2015/06/11/workflow-cheatsheet.html#setting-up-your-repo)
+[Then start again](/wow/2015/06/11/workflow-cheatsheet.html#setting-up-your-repo)
