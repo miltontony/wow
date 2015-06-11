@@ -281,4 +281,4 @@ Things to note:
 - I have created [an article that summarizes the above commands](http://nathanbegbie.github.io/wow/2015/06/11/workflow-cheatsheet.html).
 - Here's [an article that just about gitflow](http://danielkummer.github.io/git-flow-cheatsheet/) that explains it in a more general sense.
 
-[Next Article: Github Elasticsearch And The Universalcore Stack](http://nathanbegbie.github.io/wow/2015/06/10/Github-ElasticSearch-and-the-Universalcore-Stack.html)
+[Next Article: Further Reading]()
