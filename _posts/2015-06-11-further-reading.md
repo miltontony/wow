@@ -12,7 +12,7 @@ Otherwise, here's some more stuff you can check out, in no particular order:
 
 - [The legit ways of working doc](http://ways-of-working.readthedocs.org/en/latest/)
 
-- [Check out the universalcore stack](http://docs.unicore.io/the-stack.html)
+- [Check out the Universal Core stack](http://docs.unicore.io/the-stack.html)
 
 - [A brief introduction to continuous integration](http://www.thoughtworks.com/continuous-integration)
 
