@@ -1,8 +1,10 @@
 ---
-title:  "Communicating"
-date:   2015-06-08 16:25:55
-categories: 
+title: Communicating
+date: {}
+categories: null
+published: true
 ---
+
 
 Praekelt is a distributed company, which is a fancy way of saying the no-one is really obligated to be in the office when doing their work, as long as they're doing it. Interns are strongly encouraged to spend the majority of their time at [the office](https://www.google.co.za/maps/place/Praekelt+Foundation/@-33.933995,18.456975,17z/data=!3m1!4b1!4m2!3m1!1s0x1dcc5d0a28f2954f:0x7c7509131bcfb8e4), at least initially, in order to get to grips with everything. 
 
@@ -28,4 +30,4 @@ Make sure that you have the following:
 - Skype and Google Hangout Plugins installed
 - A Github Account
 
-[Next Article: Your Machine](http://127.0.0.1:4000/wow/2015/06/08/your-machine.html)
+[Next Article: Your Machine](http://nathanbegbie.github.io/wow/2015/06/08/your-machine.html)
