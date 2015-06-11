@@ -105,7 +105,7 @@ $ source ve/bin/activate
 
 {% endhighlight %}
 
-The `(ve)` that appears in the command line, is telling you that the virtualenv is activated. Then you'll need to install the packages that will allow the code to run locally on your machine. The packages are listed in a file called requirements.txt in most cases and there may also be requirements-dev.txt. Luckily, we use [pip](http://en.wikipedia.org/wiki/Pip_%28package_manager%29) to take care of all of that for us. Make sure your virtualenv is activated for the appropriate repo and then simply run the following commands:
+The `(ve)` that appears in the command line, is telling you that the virtualenv is activated. Then you'll need to install the packages that will allow the code to run locally on your machine. The packages are listed in a file called `requirements.txt` in most cases and there may also be `requirements-dev.txt`. Luckily, we use [pip](http://en.wikipedia.org/wiki/Pip_%28package_manager%29) to take care of all of that for us. Make sure your virtualenv is activated for the appropriate repo and then simply run the following commands:
 
 {% highlight bash %}
 
@@ -114,7 +114,7 @@ The `(ve)` that appears in the command line, is telling you that the virtualenv 
 
 {% endhighlight %}
 
-This is the standard way to set things up, but it may differ from repo to repo. Check out the local readme file for instructions. There may also be a `bootstrap.sh` file in the repo, in which case you can skip the instructions from the virtualenv to here and simply run
+This is the standard way to set things up, but it may differ from repo to repo. Check out the repo's readme file for instructions. There may also be a `bootstrap.sh` file in the repo, in which case you can skip the instructions from the virtualenv to here, and simply run:
 
 {% highlight bash %}
 
@@ -231,7 +231,7 @@ You can always create a pull request before you're completely ready, in order to
 
 ![alt text](/wow/resources/fig16.jpg "Title")
 
-Just before you start celebrating however, you need to make sure that there haven't been changes in the develop branch that conflict with the code you've crafted in your feature branch. It's better to solve any potential issues before merging, so what we do is merge an up-to-date develop branch into out feature branch like so:
+Just before you start celebrating however, you need to make sure that there haven't been changes in the develop branch that conflict with the code you've crafted in your feature branch. It's better to solve any potential issues before merging, so what we do is merge an up-to-date develop branch into our feature branch like so:
 
 {% highlight bash %}
 
@@ -287,6 +287,6 @@ Things to note:
 
 - Things like quality assurance from project managers and the broader software creation process is not covered here. 
 - I have created [an article that summarizes the above commands](/wow/2015/06/11/workflow-cheatsheet.html).
-- Here's [an article that just about gitflow](http://danielkummer.github.io/git-flow-cheatsheet/) that explains it in a more general sense.
+- Here's [an article that's just about gitflow](http://danielkummer.github.io/git-flow-cheatsheet/) that explains it in a more general sense.
 
 [Next Article: Further Reading](/wow/2015/06/11/further-reading.html)
