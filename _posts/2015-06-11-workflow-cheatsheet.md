@@ -11,7 +11,7 @@ Find the repo you want, get the SSH code
 {% highlight bash %}
 
 $ git clone <git@github:something>
-$ cd <the Repo>
+$ cd <REPO>
 $ git checkout master 
 $ git checkout develop
 $ git flow init
@@ -26,7 +26,6 @@ $ Branch name for "next release" development: [develop]
 $ Feature branches? [feature/] 
 $ Release branches? [release/] 
 $ Hotfix branches? [hotfix/]
-
 
 {% endhighlight %}
 
@@ -116,6 +115,7 @@ cd .git
 nano config
 
 {% endhighlight %}
+
 Use whatever text editor you want, not nec `nano` to open `config`
 
 ##To Delete a Local Branch
@@ -161,4 +161,4 @@ rm -rf <REPO NAME>
 
 {% endhighlight %}
 
-[Then start again]()
+[Then start again](something)
