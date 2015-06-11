@@ -154,7 +154,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 {% endhighlight %}
 
-Here's a virtual representation of how this all works.
+Here's a visual representation of how this all works.
 
 ![alt text](/wow/resources/fig41.jpg "Title")
 
