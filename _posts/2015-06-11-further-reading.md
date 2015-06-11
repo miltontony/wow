@@ -20,3 +20,5 @@ Otherwise, here's some more stuff you can check out, in no particular order:
 
 - [We do cool stuff](http://vumi.org/)
 
+- [Watch this video of Gustav Praekelt at TEDxSoweto](https://www.youtube.com/watch?v=79hznbVuegc)
+
