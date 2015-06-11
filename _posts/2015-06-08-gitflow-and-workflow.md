@@ -220,7 +220,7 @@ hub pull-request -b develop -i 21
 
 {% endhighlight %}
 
-This will summarize all the changes you've made and will allow other developers to review your code. It will also test the entirety of your code using [Travis](https://travis-ci.org/) and let you know if stuff is broken, but I'll deal more in depth with testing in another article. Here's an excerpt from a pull request (PR). [Here's an actual PR on GitHub](https://github.com/Universal Core/springboard/pull/20).
+This will summarize all the changes you've made and will allow other developers to review your code. It will also test the entirety of your code using [Travis](https://travis-ci.org/) and let you know if stuff is broken, but I'll deal more in depth with testing in another article. Here's an excerpt from a pull request (PR). [Here's an actual PR on GitHub](https://github.com/universalcore/springboard/pull/20).
 
 ![alt text](/wow/resources/fig14.jpg "Title")
 
