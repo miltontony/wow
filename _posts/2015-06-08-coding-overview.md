@@ -20,7 +20,7 @@ Our approach to development is that if you haven't written tests for your code, 
 ##Some concepts
 There are a couple of concepts/ideas/technologies/stuff that you should get comfortable with:
 
-- How to use the terminal or command line
+- How to use the terminal or command line, [here's](https://github.com/jlevy/the-art-of-command-line) a helpful resource for the command line, although it is centered toward Linux users.
 - Git and version control, which is dealt with in the next article
 - Web frameworks and what they are. I found [this article](http://en.wikipedia.org/wiki/Web_application_framework) and [this video](https://www.youtube.com/watch?v=b3p4rBZAwwE) helpful. The web applications that we use are [Django](https://www.djangoproject.com/) and [Pyramid](http://www.pylonsproject.org/) among others. Don't worry, you'll be given a lot of time to familiarize yourself with these technologies.
 
