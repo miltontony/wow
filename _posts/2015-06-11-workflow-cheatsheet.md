@@ -107,6 +107,40 @@ Make sure you've gotten a +1 or thumbs up in your pull request
 
 {% endhighlight %}
 
+##Create a release
+Check that you're on the develop branch
+
+{% highlight bash %}
+
+$ git pull
+$ git checkout master
+$ git pull
+$ git checkout develop
+$ git flow release start <NEW-VERSION-NUMBER>
+
+{% endhighlight %}
+
+You will now be on branch `release/<NEW-VERSION-NUMBER>`
+You then need to update the version number in the VERSION file using a text editor and then update the CHANGES.rst file, stating what has changed in the update.
+
+{% highlight bash %}
+
+$ git flow release finish <NEW-VERSION-NUMBER>
+
+{% endhighlight %}
+
+You will now be back on the develop branch
+
+{% highlight bash %}
+
+$ git push --tags
+$ git push
+$ git checkout master
+$ git push
+$ git checkout develop
+
+{% endhighlight %}
+
 ##check your branch merge settings and details
 Navigate to root of the repo
 {% highlight bash %}
